@@ -7,12 +7,11 @@ body {
     box-sizing: border-box;
 }
 
-/* Базовые стили для мобильных */
 .container {
     width: 100%;
     margin-left: auto;
     margin-right: auto;
-    max-width: 400px; /* Ограничиваем максимальную ширину */
+    max-width: 400px;
 }
 
 
@@ -25,7 +24,6 @@ body {
 }
 
 .block_1__content1 {
-    content: "";
     position: absolute;
     width: 150px;
     right: 0;
@@ -33,7 +31,6 @@ body {
 }
 
 .block_1__content2 {
-    content: "";
     display: block;
     position: absolute;
     width: 240px;
@@ -42,7 +39,6 @@ body {
 }
 
 .block_1__text1 {
-    content: "";
     position: absolute;
     top: 20px;
     left: 5%;
@@ -56,7 +52,6 @@ body {
 }
 
 .block_1__text2 {
-    content: "";
     position: absolute;
     font-family: "Caveat", sans-serif;
     text-align: center;
@@ -67,7 +62,6 @@ body {
 }
 
 .block_1__photo1 {
-    content: "";
     position: absolute;
     width: 240px;
     right: 1%;
