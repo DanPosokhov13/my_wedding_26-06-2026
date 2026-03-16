@@ -114,8 +114,7 @@ body {
 
 .organization {
     width: 100%;
-    display: flex;
-    flex-direction: column;
+    position: relative;
 }
 
 .when_block {
@@ -128,7 +127,6 @@ body {
 .organization_quest {
     font-family: "Playpen Sans", sans-serif;
     display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: center;
     font-size: 30px;
@@ -149,6 +147,7 @@ body {
 }
 
 .place_adress {
+    position: relative;
     margin-top: 20px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 19px;
@@ -168,11 +167,14 @@ body {
 }
 
 .button {
+    position: relative;
     margin-top: 20px;
     padding-right: 20px;
     padding-left: 20px;
     padding-top: 12px;
     padding-bottom: 12px;
+    left: 50%; 
+    transform: translate(-50%);
 }
 
 .adress_button {
@@ -184,6 +186,7 @@ body {
     font-size: 15px;
     color: white;
 }
+
 .how {
     margin-top: 25px;
     color: rgb(214, 115, 58);
