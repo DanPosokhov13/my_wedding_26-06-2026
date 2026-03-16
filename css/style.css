@@ -78,9 +78,8 @@ body {
 
 .block_2 {
     width: 100%;
-    height: 450px;
+    height: 250px;
     position: relative;
-    display: flex;
 }
 
 .block_2__title {
@@ -105,10 +104,87 @@ body {
     position: absolute;
     text-align: center;
     width: 85%;
-    top: 129px;
+    top: 120px;
     font-family: "Playpen Sans", sans-serif;
     color: white;
-    font-size: 10px;
+    font-size: 13px;
     left: 50%; 
     transform: translate(-50%);
+}
+
+.organization {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.when_block {
+    margin-top: 10px;
+    display: block;
+    width: 100%;
+    position: relative;
+}
+
+.organization_quest {
+    font-family: "Playpen Sans", sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    color: rgb(254, 198, 163);
+}
+
+.organization_pict {
+    margin-top: 20px;
+    position: relative;
+    left: 50%; 
+    transform: translate(-50%);
+    width: 90%;
+}
+
+.where {
+    color: rgb(115, 123, 76);
+    letter-spacing: 3px;
+}
+
+.place_adress {
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 19px;
+    width: 80%;
+    display: flex;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 22px;
+    color: rgb(115, 123, 76);
+}
+
+.adress_link {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.button {
+    margin-top: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.adress_button {
+    border: none;
+    border-radius: 7px;
+    text-transform: uppercase;
+    background-color: rgb(115, 123, 76);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: white;
+}
+.how {
+    margin-top: 25px;
+    color: rgb(214, 115, 58);
 }
