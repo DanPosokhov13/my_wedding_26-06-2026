@@ -270,6 +270,10 @@ body {
 
 .details {
     color: rgb(115, 123, 76);
+    background-color: rgba(255, 251, 241, 0.7);
+    position: sticky;
+    display: flex;
+    top: 0;
 }
 
 .details_container {
