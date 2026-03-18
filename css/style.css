@@ -260,3 +260,8 @@ body {
     transform: translate(-50%);
 
 }
+
+.details_block {
+    position: relative;
+    width: 100%;
+}
