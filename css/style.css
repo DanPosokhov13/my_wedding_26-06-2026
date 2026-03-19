@@ -236,6 +236,31 @@ body {
     letter-spacing: 2px;
 }
 
+.sticker {
+    position: absolute;
+    width: 100px;
+}
+
+.st2 {
+    right: 0;
+    top: -30px;
+}
+
+.st3 {
+    right: 40px;
+    top: 180px;
+}
+
+.st1 {
+    left: -30px;
+    top: -50px;
+}
+
+.st4 {
+    left: 0;
+    bottom: -50px;
+}
+
 .color_block {
     display: block;
     position: relative;
