@@ -380,6 +380,7 @@ body {
 }
 
 .contacts_block {
+    width: 100%;
     margin-top: 35px;
     display: flex;
     flex-direction: column;
