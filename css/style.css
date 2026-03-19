@@ -390,6 +390,7 @@ body {
 .contacts {
     color: rgb(124, 87, 61);
     display: flex;
+    position: relative;
 }
 
 .contacts_text {
