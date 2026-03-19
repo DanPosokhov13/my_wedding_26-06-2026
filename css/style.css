@@ -126,11 +126,17 @@ body {
 
 .organization_quest {
     font-family: "Playpen Sans", sans-serif;
-    display: flex;
     align-items: center;
     justify-content: center;
     font-size: 30px;
     color: rgb(254, 198, 163);
+    background-color: rgba(255, 251, 241, 0.7);
+    position: sticky;
+    display: flex;
+    top: 0;
+    z-index: 2;
+    box-shadow: 5px 5px 5px rgba(255, 251, 241, 0.7);
+
 }
 
 .organization_pict {
@@ -187,13 +193,20 @@ body {
     color: white;
 }
 
-.how {
+.how_block {
     margin-top: 35px;
-    color: rgb(214, 115, 58);
+    width: 100%;
     margin-bottom: 20px;
 }
 
+
+.how {
+    color: rgb(214, 115, 58);
+}
+
+
 .whats_o_clock {
+    margin-top: 20px;
     position: relative;
     display: block;
     width: 100%;
@@ -270,10 +283,6 @@ body {
 
 .details {
     color: rgb(115, 123, 76);
-    background-color: rgba(255, 251, 241, 0.7);
-    position: sticky;
-    display: flex;
-    top: 0;
 }
 
 .details_container {
