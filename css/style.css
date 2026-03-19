@@ -365,7 +365,7 @@ body {
 .guest_text {
     position: absolute;
     text-align: center;
-    top: 90px;
+    top: 95px;
     width: 80%;
     left: 50%;
     transform: translate(-50%);
