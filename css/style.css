@@ -242,6 +242,7 @@ body {
 }
 
 .st2 {
+    width: 80px;
     right: 0;
     top: -30px;
 }
@@ -337,4 +338,97 @@ body {
 
 .flowers {
     font-size: 13px;
+}
+
+.guest_form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 35px;
+    position: relative;
+    width: 100%;
+}
+
+.guest {
+    color: rgb(240, 138, 79);
+    display: flex;
+}
+
+.ellips {
+    position: relative;
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+
+.guest_text {
+    position: absolute;
+    text-align: center;
+    top: 90px;
+    width: 80%;
+    left: 50%;
+    transform: translate(-50%);
+    color: white;
+    font-family: "Playpen Sans", sans-serif;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.guest_form_button {
+    background-color: rgb(240, 138, 79);
+}
+
+.contacts_block {
+    margin-top: 35px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.contacts {
+    color: rgb(124, 87, 61);
+    display: flex;
+}
+
+.contacts_text {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 15px;
+    font-family: "Playpen Sans", sans-serif;
+    color: rgb(124, 87, 61);
+}
+
+.alesya {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    line-height: 50px;
+}
+
+.telegram {
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.welcome_block {
+    margin-top: 20px;
+    position: relative;
+    width: 100%;
+    margin-bottom: 35px;
+}
+
+.welcome {
+    display: flex;
+    text-align: center;
+    color: rgb(115, 123, 76);
+}
+
+.welcome_photo {
+    margin-top: 10px;
+    display: flex;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
 }
