@@ -181,6 +181,7 @@ body {
     padding-bottom: 12px;
     left: 50%; 
     transform: translate(-50%);
+    box-shadow: 2px 2px 10px black;
 }
 
 .adress_button {
