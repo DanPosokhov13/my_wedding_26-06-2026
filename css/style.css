@@ -439,10 +439,17 @@ body {
     margin-right: auto;
 }
 
-.flowers_submit {
-    color: rgb(115, 123, 76);
-    font-size: 14px;
+
+.flowers_description {
+    font-family: "Playpen Sans", sans-serif;
+    align-items: center;
+    justify-content: center;
     width: 80%;
+    font-size: 14px;
+    color: rgb(115, 123, 76);
     margin-left: auto;
     margin-right: auto;
+    display: flex;
+    top: 0;
+
 }
