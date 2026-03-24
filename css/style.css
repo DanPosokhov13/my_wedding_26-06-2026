@@ -438,3 +438,11 @@ body {
     margin-left: auto;
     margin-right: auto;
 }
+
+.flowers_submit {
+    color: rgb(115, 123, 76);
+    font-size: 14px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
